@@ -1,0 +1,12 @@
+* For combining two models we can concatenate. 
+* Non-max Supression is used to eliminate the bounding boxes with less accuracy.
+* NMS uses the IOU (intersection over union)= intersection / union
+* Nms is based on threshold value if we have threshold value 0.5 with iou value 
+Iou _> 0.5.
+* For this task we need develop two models and obtaining the best bbox by using NMS.
+
+Advantages:
+* Remove the box with a lower confidence from list of boxes.
+
+Disadvantages:
+* Non- Maximum Suppression has shortcomings in scenes that contain objects with high overlap
